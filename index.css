@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-sec{
+    border: 1px solid lightgray;
+    height: auto;
+
+}
+
+.header1{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.top-link{
+    color: black;
+    font-weight: 600;
+}
+
+.header2{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 14px 5px;
+}
+
+.logo{
+    height: 53px;
+    /* width: 100px; */
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.nav-btn{
+    padding: 12px;
+    flex: 1;
+    text-align: center;
+    /* margin-left: 0px; */
+}
+
+.sep{
+    color: lightgrey;
+    font-size: 25px;
+}
+
+.nav-btn1{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-btn2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-btn3{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+.side-btns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 21%; */
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+/* .side-btn1{
+
+}
+
+.side-btn2{
+
+} */
+
+.side-btn3{
+    display: flex;
+    gap: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.s-btn{
+    padding: 11px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.s-btn:hover{
+    background-color: whitesmoke;
+}
+
+/* .header3{
+
+} */
+
+.body{
+    margin: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 23%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.card-img{
+    height: 250px;
+    border-radius: 15px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.city{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rate{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desc{
+    margin-top: 1px;
+    color: #737373;
+}
+
+.cost{
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.sp{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+}
